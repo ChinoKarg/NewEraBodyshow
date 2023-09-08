@@ -1,0 +1,404 @@
+/*.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.fondoAzul{
+    background-color: #00416B;
+    color: white;
+}
+
+.fondoVerde{
+    background-color: #00D0CA;
+    color: white;
+}
+
+.imagenPuntosLineas{
+    background-image: url('../img/1091.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  body,html{
+    width: 100%;
+    height: 100%;
+  }
+
+  .textoInicioSesion{
+      padding: 0.8% 4% 0.8% 4%;
+      border-radius: 20px 20px 20px 20px;
+      background-color: #0076a7;
+      color: white;
+      font-weight: bold;
+  }
+
+.number ::-webkit-inner-spin-button,
+.number ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.number {
+    -moz-appearance: textfield;
+}*/
+
+@font-face {
+
+  font-family: 'titleSintilla';
+  
+  src: url("../font/hillenberg-shadow.ttf");
+  
+  }
+
+
+.Classbody{
+    /*position:relative;min-width:950px;padding-top:15px;*/
+    background:#7F7F7F url("../img/bckgrnd_02.jpg")repeat center top scroll;
+    background-color: #165E64;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOOTER */
+
+.footer-main {
+    padding: 70px 10px;
+    background: #363636;
+    z-index: 1;
+  }
+
+  .block-2{
+      font-weight: bold;
+  }
+
+
+  #hero-area_About {
+    background: url("../img/worshop/location_2.jpeg")  100%;
+    /*background-size: 10% 10%;*/
+    margin-top: 102px;
+    padding-top: 102px;
+    background-size: 100%;
+    padding: 180px 0;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #hero-area_About:before {
+    content: '';
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  #hero-area_About .block {
+    position: relative;
+    z-index: 999;
+  }
+
+  #hero-area {
+    background: url("../img/new_era_body_shop_large.jpg")  100%;
+    /*background-size: 10% 10%;*/
+    margin-top: 102px;
+    padding-top: 102px;
+    background-size: 100%;
+    padding: 215px 0;
+    color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #hero-area:before {
+    content: '';
+    z-index: 9;
+    background: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #hero-area .block {
+    position: relative;
+    z-index: 999;
+  }
+  
+  #hero-area h1 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  #hero-area h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 38px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+  }
+  
+  #hero-area .btn {
+    background: #414141;
+    border: none;
+    color: #fff;
+    padding: 20px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    border-radius: 0;
+  }
+
+  .dorderGlass{
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 100px 30px #CCB9AA;
+    border: #0364A0 solid;
+    border-radius: 50px;
+    background-color: #363636;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+  }
+
+  
+  .dorderGlass_1{
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 100px 30px #CCB9AA;
+    border-radius: 40px;
+    background: linear-gradient(70deg, #0A6065, black);
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    color: red;
+  }
+  
+  .dorderGlass_2{
+    box-shadow: 5px 5px 100px 30px #CCB9AA;
+    border-radius: 40px;
+    /*background:linear-gradient(70deg,#166266,#3099B6);*/
+    /*background: linear-gradient(70deg, black, white);*/
+    background: linear-gradient(900deg,#103C83,#0ae7f7cb,#3A7BB2);
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3em;
+  }
+  
+  .dorderGlass_3{
+    background: linear-gradient(70deg,#0b2154e9,#0073baee) ;
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+    color: white;
+    font-weight: bold;
+  }
+
+  .backGlass{
+    /*position:relative;min-width:950px;padding-top:15px;*/
+    background: url("../img/takenGlass.png") no-repeat center top scroll;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.ourWork{
+  background-color: #BABABA;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 0.5rem !important;
+  padding-top: 0.5rem !important;
+  border-radius: 40px;
+}
+
+
+.contentBody_Work{
+  background:linear-gradient(70deg,#1d1df35b,#2f96b2de) ;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #0a0a0a;
+}
+ 
+.contentBody_Work_2{
+  background:linear-gradient(70deg,#0182d8aa,#2f96b2de) ;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #e70707;
+}
+
+.labelFooter{
+  color: yellow;
+  font-weight: bold;
+}
+
+.classNavMenu{
+  /*background:linear-gradient(70deg,#05586f,#2B8EA7);*/
+  background:linear-gradient(70deg,#0d6f8a,#18676e);
+  font-weight: bold; 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  /*border-bottom: solid #EC1F24 9px;*/
+}
+
+
+.classNavMenu.transparency {
+  opacity: 0.9;
+}
+
+
+#newsletter {
+  /*background: url('../img/Liston_1.png') center center;*/
+  background:linear-gradient(70deg,#05586f,#2B8EA7);
+  font-weight:bold;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 4rem;
+/*    padding-top: 120px;
+  padding-bottom: 120px;*/
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-size: 2.8rem;
+  font-family: 'titleSintilla';
+}
+#newsletter p {
+  padding-bottom: 30px;
+}
+#newsletter .btn {
+  background: transparent;
+  border-radius: 0px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+#newsletter .form-control {
+  background: transparent;
+  border-color: #f2f2f2;
+  border-radius: 0px;
+  color: #ffffff;
+  height: 50px;
+}
+#newsletter input[type="submit"] {
+  background: #DE350F;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+#newsletter .form-control::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+#newsletter .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+#newsletter .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+
+.cursos {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/imagenfondoAzul.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.pageHome {
+  margin-top: 5.5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/new_era_body_shop_large.jpg");
+  background-position: 50%;
+  background-size: 100%;
+  
+
+}
+
+.tipsTitle {
+  margin-top: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/tipsTitle.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.bodyWorkTitle {
+  margin-top: 4rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bodyWorkTitle.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+
+
+
+
+.ClassImageAfterBefor{
+  height: 100vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.image-1 {
+  background-image: url("../img/before.jpg")
+}
+.image-2 {
+  background-image: url("../img/after.jpg");
+}
+
+.image-3 {
+  background-image: url("../img/before_2.jpg");
+}
+.image-4 {
+  background-image: url("../img/after_2.jpg");
+}
+
+.image-5 {
+  background-image: url("../img/before_3.jpg");
+}
+.image-6 {
+  background-image: url("../img/after_3.jpg");
+}
+
+.image-7 {
+  background-image: url("../img/before_4.jpg");
+}
+.image-8 {
+  background-image: url("../img/after_4.jpg");
+}
+
+
+.titleTransaction{
+  background:linear-gradient(70deg,#020c0fa4,#2B8EA7,#020c0fa4);
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
